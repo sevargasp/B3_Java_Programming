@@ -18,7 +18,7 @@ public class BasicCalculator {
         System.out.println(num1+" - "+ num2+ " = "+ subtraction);
         System.out.println(num1+" * "+ num2+ " = "+ multiplication);
         System.out.println(num1+" / "+ num2+ " = "+ division);
-        System.out.println(num1+" % "+ num2+ " % "+ remainder);//whatever is not divisible will be the remainder.
+        System.out.println(num1+" % "+ num2+ " = "+ remainder);//whatever is not divisible will be the remainder.
 
         //reassigned the variables
         num1= 13;

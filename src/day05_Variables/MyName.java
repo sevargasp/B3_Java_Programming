@@ -14,7 +14,7 @@ public class MyName {
         System.out.println();
         System.out.println(first+second+third+fourth+fifth+six);
 
-        //String name= first+second+third+fourth+fifth+six; I can not print because is a int value
+        //String name= first+second+third+fourth+fifth+six; I can not print because is an int value
 
         String name= ""+ first+second+third+fourth+fifth+six;
 
