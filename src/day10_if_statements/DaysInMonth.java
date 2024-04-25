@@ -3,7 +3,7 @@ package day10_if_statements;
 import java.util.Scanner;
 
 /*
-          create a int variable to represent the month number, where 1 is January and 12 is December.
+          create an int variable to represent the month number, where 1 is January and 12 is December.
       use the month number input to determine how many days are in that month.
       use the following data to help you determine the number of days in each month:
 
