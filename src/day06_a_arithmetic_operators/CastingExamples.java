@@ -25,7 +25,7 @@ public class CastingExamples {public static void main(String[]args){
 
     System.out.println('B');
     System.out.println((int)'B');
-    //whats the number inside with (int)
+    //what's the number inside with (int)
 
 
 
