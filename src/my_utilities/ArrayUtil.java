@@ -107,7 +107,7 @@ import java.util.Arrays;
         }
 
         /**
-         * This method returns the array with the new value by through the for loop
+         * This method returns the array with the new value by through the for loop.. esta fue para otra manera de resolverla
          * @param originArr initial array
          * @param elemToAdd the element to add at the before array
          * @return final array with the element already added.
@@ -128,21 +128,26 @@ import java.util.Arrays;
         }
         /**
          * This returns new array with the fusion of two Arrays, the first one followed by the second one
-         * @param a first array
-         * @param b second array
+         * @param arr1 first array
+         * @param arr2 second array
          * @returns one array with the length of both previous ones
          */
 
-        public static int [] twoArraysInOne(int []a, int []b){
-            int []c= Arrays.copyOf(a,(a.length+ b.length));
-            System.out.println(Arrays.toString(c));
+        public static int [] addElemInArr(int []arr1, int []arr2){
+            int []newArray= Arrays.copyOf(arr1,(arr1.length+ arr2.length));
+//            System.out.println(Arrays.toString(newArray));// this show # extra more spaces
 
-            for (int i =0 ; i < b.length ; i++) {
-                c[i+ a.length]=b[i];
+//
+//            for (int i =0 ; i < arr2.length ; i++) {
+//                newArray[i+ arr1.length]=arr2[i];
+//
+//            }// i did this option.
 
+            for (int i = arr1.length; i < newArray.length ; i++) {
+                newArray[i]=arr2[i-arr1.length];// newArray[5] = arr2[5-5]; | newArray[6]=arr2[6-5];
             }
-            System.out.println(Arrays.toString(c));
-            return c;
+//            System.out.println(Arrays.toString(newArray));
+            return newArray;
         }
 
         /**
@@ -197,6 +202,22 @@ import java.util.Arrays;
                 sum += each;
             }
             return sum;
+        }
+
+        /**
+         *
+         * @param arr1
+         * @param arr2
+         * @return
+         */
+        public static String []addElemInArr(String []arr1, String []arr2){
+
+            String []newArray=Arrays.copyOf(arr1,arr1.length+arr2.length);
+
+            for (int i = arr1.length; i < newArray.length; i++) {
+                newArray[i]=arr2[i-arr1.length];
+            }
+            return newArray;
         }
 
     }
