@@ -34,8 +34,10 @@ public class UsingCollectionsClass {
 
         ArrayList <Character> letters = new ArrayList<>( Arrays.asList( 'A', 'B', 'D', 'C')  );
         System.out.println(letters);
+
         Collections.sort(letters);
         System.out.println(letters);
+
         Collections.reverse(letters);
         System.out.println(letters);
 
@@ -71,6 +73,7 @@ public class UsingCollectionsClass {
         }
 
         ArrayList <String> strArrList = new ArrayList<>(Arrays.asList("one", "two", "five", "five", "ten"));
+
         System.out.println(  Collections.frequency(strArrList, "six")  );
         System.out.println(  Collections.frequency(strArrList, "five")  );
         System.out.println(  Collections.frequency(strArrList, "ten")  );
