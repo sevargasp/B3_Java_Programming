@@ -14,8 +14,9 @@ public class UsePhone {
         Phone phone3 = new Phone("Iphone 14 Max", "Apple");
         System.out.println(phone3);
 
+        Phone phone4 = new Phone("IPhone 14 pro", "Apple", 512, 0.0); // This is just made to show that toString method can be modified the way you want. If you create object this way, the having if condition is not good approach.
 
-
+//porque alguien puede darte valores de 00 porque quiere que aparezca el cero y con esta codicion, la estas evitando.
 
     }
 
