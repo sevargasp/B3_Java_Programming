@@ -1,0 +1,26 @@
+package day36_inheritance.app;
+/*
+Create a class Instagram
+
+    - Instagram class inherits App class
+
+    - create constructor to call parent constructor and set up variables (name and version)
+
+    - create method:
+        postPicture()
+            Example output: prints Posting picture to Instagram
+ */
+public class Instagram extends App {
+
+    public Instagram (double version){
+        super("Instagram", version);
+    }
+
+    public void postPicture(){
+        System.out.println("Posting picture to " + name);
+    }
+
+}
+//puedo usar un hardcode  para no estar llamandolo durante el tiempo sin modificarlo. Super("instagram", version)
+
+//GETTERS AND SETTERS MOST OF THE TIME ARE FOR VARIABLES(DATA) THEY ARE NOT COMMON FOR METHODS.

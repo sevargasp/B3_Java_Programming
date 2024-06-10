@@ -1,4 +1,5 @@
 package day21_arrays;
+
 /*
 Initials
         • Given an array of classmate’s names, first name and last separated by a space, print the initials of everyone
@@ -9,7 +10,8 @@ Initials
                 JB ER AJ
  */
 public class Initials {
-    public static void main(String[] args) {    String [] names = {"James Bond ", " eve Rell", " Anna johnson "};
+    public static void main(String[] args) {
+        String[] names = {"James Bond ", " eve Rell", " Anna johnson "};
 
 
         for (int i = 0; i < names.length; i++) {
@@ -20,7 +22,7 @@ public class Initials {
             //System.out.println(eachFullName);
             //System.out.println(eachLastName);
 
-            String initial = (eachFullName.charAt(0)+"").toUpperCase() + (eachLastName.charAt(0) + "").toUpperCase();
+            String initial = (eachFullName.charAt(0) + "").toUpperCase() + (eachLastName.charAt(0) + "").toUpperCase();
             System.out.println(initial);
 
             //System.out.println((names[i].trim().charAt(0)+"").toUpperCase() + (names[i].trim().substring(eachFullName.indexOf(" ")).trim().charAt(0)+"").toUpperCase());
@@ -29,7 +31,7 @@ public class Initials {
 
 
         // This is same but used foreach loop
-        for ( String each : names) {
+        for (String each : names) {
             String eachFullName = each.trim();//new each variable
             String eachLastName = eachFullName.substring(eachFullName.indexOf(" ")).trim(); // _Bond - _Rell
 //            String eachLastName = eachFullName.substring(eachFullName.indexOf(" ")+1); // _Bond - _Rell
@@ -37,13 +39,12 @@ public class Initials {
             //System.out.println(eachFullName);
             //System.out.println(eachLastName);
 
-            String initial = (eachFullName.charAt(0)+"").toUpperCase() + (eachLastName.charAt(0) + "").toUpperCase();
+            String initial = (eachFullName.charAt(0) + "").toUpperCase() + (eachLastName.charAt(0) + "").toUpperCase();
             System.out.println(initial);
 
             //System.out.println((names[i].trim().c harAt(0)+"").toUpperCase() + (names[i].trim().substring(eachFullName.indexOf(" ")).trim().charAt(0)+"").toUpperCase());
 
         }
-
 
 
     }
