@@ -1,4 +1,4 @@
-package day30_a_arraylist;
+package day30_a_arrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
