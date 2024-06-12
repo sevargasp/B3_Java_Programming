@@ -26,12 +26,13 @@ public class Library {
         //eb1.listen(); // NOT REACHABLE-->invalid because .listen() belongs to a sibling class
 
         //here im creating an object of the author class
-        Author a1 = new Author("jojo moyes", 40);
+        Author a1 = new Author("jojo moyes", 40);//cuando cree mi objeto autor debo pasarle esa informaci[on.
 
-        Book b1 = new Book();
+        Book b1 = new Book();//que son las variables padre
         //b1. -  has access to 6 instance variables of the class
         b1.author = new Author("Gabriel Garcia Marquez", 80);
-        System.out.println(b1.author);//without the toString i'll get a memory location.
+        System.out.println(b1.author);//without the toString i'll get a memory location.//la variable string  que le pertemece al author
+
 
 
         AudioBook audio1 = new AudioBook();
