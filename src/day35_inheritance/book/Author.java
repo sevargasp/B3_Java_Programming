@@ -8,7 +8,7 @@ public class Author {
     private int age;
     private String nationality;
 
-
+//como cree el constructor de esa clase, cuando sea que estoy creando el objeto debo de llamarlo con esos elementos.
     public Author(String name, int age) {
         //this.name = name;
         setName(name);//llama al set metodo
