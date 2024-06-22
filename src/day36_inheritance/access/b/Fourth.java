@@ -2,7 +2,7 @@ package day36_inheritance.access.b;
 
 import day36_inheritance.access.a.First;
 
-// Different package - Different class - but there INHERITANCE
+// Different package - Different class - but there is INHERITANCE
 public class Fourth extends First {
     public static void main(String[] args) {
         First obj = new First();

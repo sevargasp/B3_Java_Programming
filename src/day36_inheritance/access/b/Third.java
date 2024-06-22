@@ -14,7 +14,7 @@ public class Third {
         //Since there is no relation between the class (First) which has members called one, two, three, four, we can not access
         //Since Third class has no members called one, two, three, four, we can not access
         //obj2.one;
-        //obj2.two;
+//        obj2.two;
         //obj2.three;
         //obj2.four;
 
