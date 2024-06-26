@@ -22,7 +22,7 @@ public class Classroom {
         map.put(1, s1);
 
 
-        map.put(2, new Student("Jack", 27.0, 7));
+        map.put(2, new Student("Jack", 27.0, 7));//esta pasando objetos de tipo estudiante
         map.put(3, new Student("Mickey", 20, 8));
         map.put(4, new Student("Mouse", 18.0, 5));
 
@@ -41,20 +41,20 @@ public class Classroom {
         System.out.println();
         //Q: How can I get all the KEYs only.
         //A: .keySet();
-        System.out.println(map.keySet());
+        System.out.println(map.keySet());//usa en otra clase para tener los no repetidos.
 
 
         System.out.println();
         //Q: How can I get all the VALUES only
         //A: values();
-        System.out.println(map.values());
+        System.out.println(map.values());//esto me da todos los valores.
 
 
         System.out.println();
         // another way to loop and get each
         for (Integer each : map.keySet() ){
             System.out.println("Row number: " + each);
-            System.out.println( map.get(each));
+            System.out.println( map.get(each));//me da cada key
             System.out.println();
         }
 
