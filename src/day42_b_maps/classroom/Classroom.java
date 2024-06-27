@@ -76,7 +76,8 @@ public class Classroom {
 
         // another way to loop through using the .entrySet() method
         System.out.println("-----------");
-        for ( Map.Entry<Integer, Student> each : map.entrySet()){
+            //se llama la INTERFACE //el integer y el student es el match del map object.
+        for ( Map.Entry<Integer, Student> each : map.entrySet()){//it returns key and values at the same time.
             System.out.println("Row: " + each.getKey());
             System.out.println("Value: " + each.getValue());
         }
