@@ -18,7 +18,7 @@ public class Student {
     public String toString(){//este metodo viene de Object class
         //lo que sea que yo implemente estoy implementando.
 
-        return "Student Info: " +
+        return "\nStudent Info: " +
                 "\n\tName: " + name +
                 "\n\tAge: " + age +
                 "\n\tID: " + id;

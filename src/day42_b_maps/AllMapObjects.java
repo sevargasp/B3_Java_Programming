@@ -26,6 +26,7 @@ public class AllMapObjects {
 
         Map<String, String> map3 = new TreeMap<>(); // KEYs Order is sorted(Ascending order) - null KEY is NOT OK
         map3.put("feyruz", "java");
+
         map3.put("nadir", "selenium");
         map3.put("james", "bond");
         map3.put("username", "password");
